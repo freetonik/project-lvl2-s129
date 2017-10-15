@@ -1,0 +1,60 @@
+{
+  "name": "gendiff_freetonik",
+  "version": "0.0.6",
+  "description": "Hexlet Projects, Gendiff utility",
+  "main": "dist/index.js",
+  "bin": {
+    "gendiff": "dist/bin/gendiff.js"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "gulp": "gulp",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freetonik/project-lvl2-s129.git"
+  },
+  "author": "Rakhim Davletkaliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freetonik/project-lvl2-s129/issues"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "homepage": "https://github.com/freetonik/project-lvl2-s129#readme",
+  "dependencies": {
+    "commander": "*",
+    "js-yaml": "*",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-jest": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "babel-preset-flow": "*",
+    "babel-preset-stage-0": "*",
+    "debug": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "flow-bin": "^0.56",
+    "flow-typed": "*",
+    "jest": "^21",
+    "jest-cli": "*"
+  }
+}
