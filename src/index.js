@@ -29,10 +29,10 @@ const getObjectDiff = (obj1, obj2) => {
       if (!_.has(obj1, key) && _.has(obj2, key)) {
         result.push(`  + ${key}: ${obj2[key]}`);
       }
-    }    
+    }
   });
 
-  return `\n{\n${result.join("\n")}\n}\n`;
+  return `\n{\n${result.join('\n')}\n}\n`;
 };
 
 const gendiff = (firstConfigFilePath, secondConfigFilePath) => {
