@@ -1,6 +1,6 @@
 {
   "name": "gendiff_freetonik",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Hexlet Projects, Gendiff utility",
   "main": "dist/index.js",
   "bin": {
